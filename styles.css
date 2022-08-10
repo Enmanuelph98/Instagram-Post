@@ -1,0 +1,57 @@
+/* CSS */
+*{
+    box-sizing: border-box;
+}
+body {background-color: black;}
+.wrapper{
+    width: 25rem;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+
+}
+
+.user-image{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+
+}
+
+.username{
+    font-weight: 700;
+}
+.user{
+    position: relative;
+    bottom: 1rem;
+    padding: 0.5rem;
+}
+.option{
+    position: relative;
+    left: 17rem;
+    bottom: 1rem;
+}
+
+
+.details i{
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0.5rem;
+}
+
+.save{
+    position: relative;
+    left: 17rem;
+}
+
+.liked{
+    color: #e74c3c;
+}
+
+.photo {width: 400px;
+height: 300px; 
+padding:0px !important;}
+.info-user-container {    padding: 0.5rem;}
+.post-footer{    padding: 0.5rem;}
+.description {    padding: 0.5rem;}
