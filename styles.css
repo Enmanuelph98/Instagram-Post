@@ -9,7 +9,6 @@ body {background-color: black;}
     border: 1px solid black;
     background-color: white;
     margin: auto;
-
 }
 
 .user-image{
@@ -22,7 +21,7 @@ body {background-color: black;}
 .username{
     font-weight: 700;
 }
-.user{
+.username-user{
     position: relative;
     bottom: 1rem;
     padding: 0.5rem;
@@ -34,24 +33,16 @@ body {background-color: black;}
 }
 
 
-.details i{
+.details{
     cursor: pointer;
     font-size: 24px;
     padding: 0.5rem;
-}
+} 
 
-.save{
-    position: relative;
-    left: 17rem;
-}
 
-.liked{
-    color: #e74c3c;
-}
+.save{position: relative; float: right;}
 
 .photo {width: 400px;
-height: 300px; 
-padding:0px !important;}
-.info-user-container {    padding: 0.5rem;}
+height: 300px; padding: 0 !important;}
 .post-footer{    padding: 0.5rem;}
 .description {    padding: 0.5rem;}
